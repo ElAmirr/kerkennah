@@ -57,14 +57,20 @@ a {
     font-size: 20px;
     cursor: pointer;
 }
+
+.map img {
+    height: 100vh;
+    width: 100vw;
+}
+
 .slider {
     height: 100vh;
-    background: linear-gradient(to left, rgba(66, 52, 61, 0.5), rgba(122, 177, 147, 0.5));
+    background: linear-gradient(to left, rgba(44, 112, 4, 0.5), rgba(177, 122, 168, 0.5));
 }
 
 div img {
     position: absolute;
-    top: 150%;
+    top: 250%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 60vh;
@@ -75,14 +81,14 @@ div img {
 
 .w3-display-left {
     position: absolute;
-    top: 150%;
+    top: 250%;
     left: 0%;
     transform: translate(0%, -50%);
 }
 
 .w3-display-right {
     position: absolute;
-    top: 150%;
+    top: 250%;
     right: 0%;
     transform: translate(0%, -50%);
 }
