@@ -99,3 +99,52 @@ div img {
     color: white;
     background: black;
 }
+
+.galery {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1f 1f 1f;
+    grid-template-columns: 1f 1f 1f;
+}
+
+.gp1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    height: 100%;
+    width: 100%;
+}
+
+.gp2 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    height: 100%;
+    width: 100%;
+}
+
+.gp3 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    height: 100%;
+    width: 100%;
+}
+
+.gp4 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    height: 100%;
+    width: 100%;
+}
+.gp5 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    height: 100%;
+    width: 100%;
+}
+
+.gp6 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    height: 100%;
+    width: 100%;
+}
+
