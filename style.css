@@ -58,7 +58,7 @@ a {
     cursor: pointer;
 }
 
-.map img {
+.map-img {
     height: 100vh;
     width: 100vw;
 }
@@ -68,7 +68,7 @@ a {
     background: linear-gradient(to left, rgba(44, 112, 4, 0.5), rgba(177, 122, 168, 0.5));
 }
 
-div img {
+.slider-img {
     position: absolute;
     top: 250%;
     left: 50%;
@@ -148,3 +148,91 @@ div img {
     width: 100%;
 }
 
+.hotel {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.card-container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    height: 70vh;
+    width: 20vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid red;
+}
+
+.hotel-header {
+    height: 30%;
+    width: 100%;
+    border: solid pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotel-img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.hotel-main-section {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hotel-main-section p {
+    text-align: center;
+}
+
+.hotel-footer {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid green;
+}
+
+@media screen and (max-width: 550px) {
+    .hotel {
+        height: 200vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .card-container {
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card {
+        height: 45vh;
+        width: 60vw;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border: solid red;
+    }
+}
