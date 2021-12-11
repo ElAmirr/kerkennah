@@ -211,7 +211,7 @@ a {
 
 @media screen and (max-width: 550px) {
     .hotel {
-        height: 200vh;
+        height: 400vh;
         display: flex;
         align-items: center;
     }
@@ -226,8 +226,8 @@ a {
     }
 
     .card {
-        height: 45vh;
-        width: 60vw;
+        height: 60vh;
+        width: 80vw;
         border-radius: 20px;
         display: flex;
         flex-direction: column;
