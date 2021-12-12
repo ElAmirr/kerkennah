@@ -100,8 +100,16 @@ a {
     background: black;
 }
 
-.galery {
+.food {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.food-container {
+    height: 100%;
     display: grid;
     grid-template-rows: 1f 1f 1f;
     grid-template-columns: 1f 1f 1f;
@@ -148,14 +156,38 @@ a {
     width: 100%;
 }
 
+.gp7 {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    height: 100%;
+    width: 100%;
+}
+
+.gp8 {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    height: 100%;
+    width: 100%;
+}
+
+.gp9 {
+    grid-row: 3/4;
+    grid-column: 3/4;
+    height: 100%;
+    width: 100%;
+}
+
 .hotel {
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .card-container {
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -164,18 +196,25 @@ a {
 .card {
     height: 70vh;
     width: 20vw;
-    border-radius: 20px;
+    border-radius: 18px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    border-collapse: collapse;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    border: solid red;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 .hotel-header {
     height: 30%;
     width: 100%;
-    border: solid pink;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,24 +240,31 @@ a {
 }
 
 .hotel-footer {
-    height: 20%;
+    height: 10%;
     width: 100%;
+    background: rgb(255, 7, 110);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border: solid green;
+}
+
+.hotel-footer a i {
+    color: black;
 }
 
 @media screen and (max-width: 550px) {
+    .gp7, .gp8, .gp9 {
+        display: none;
+    }
+
     .hotel {
         height: 400vh;
-        display: flex;
-        align-items: center;
+        width: 100vw;
     }
 
     .card-container {
         height: 100%;
-        width: 100vw;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -226,13 +272,7 @@ a {
     }
 
     .card {
-        height: 60vh;
-        width: 80vw;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        border: solid red;
+        height: 80vh;
+        width: 80vw;  
     }
 }
