@@ -14,10 +14,16 @@
             <div class="header-logo">
                 <img src="./logo-black.png" alt="logo">
             </div>
+            <a class="nav-line" href="javascript:void(0);" title="Toggle Navigation Menu">
+                <i class="fa fa-bars" onclick="openNav()" style="color: #941c1c;"></i>
+            </a>
             <nav class="navbar-menu">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a href="" class="nav-link">Hotels</a>
+                        <a href="#foods" class="nav-link">Foods</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#hotels" class="nav-link">Hotels</a>
                     </li>
                     <li class="nav-item">
                         <a href="" class="nav-link">Restorant</a>
@@ -27,6 +33,26 @@
                     </li>
                 </ul>
             </nav>
+            <!-- Navbar on small screens -->
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#foods" class="nav-link">Foods</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#hotels" class="nav-link">Hotels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Restorant</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Activity</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
     <div class="bg-img">
@@ -54,7 +80,9 @@
         <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
     </section>
     <section class="food">
-        <h2>Food</h2>
+        <a href="" name="foods">
+            <h2>Foods</h2>
+        </a>
         <div class="food-container">
             <img src="./gp1.jpg" alt="" class="gp1">
             <img src="./gp2.jpg" alt="" class="gp2">
@@ -68,7 +96,9 @@
         </div>
     </section>
     <section class="hotel">
-        <h2>Accomodations</h2>
+        <a href="" name="hotels">
+            <h2>Accomodations</h2>
+        </a>
         <div class="card-container">
             <div class="card">
                 <div class="hotel-header">
