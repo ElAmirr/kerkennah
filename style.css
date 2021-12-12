@@ -10,7 +10,7 @@
     width: 100vw;
     position: fixed;
     z-index: 2;
-    background: chartreuse;
+    background: #a3f307;
 }
 
 .container {
@@ -106,9 +106,28 @@ a {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
     border-collapse: collapse;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content:space-evenly;
     align-items: center;
     backdrop-filter: blur(5px);
+}
+
+.intr-social-media {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.intr-social-media a i, .intr-social-media i {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: black;
+    background: #a3f307;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .helen-intro {
@@ -118,7 +137,7 @@ a {
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    border: 2px solid rgb(124, 243, 187);
+    border: 2px solid#a3f307;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
 }
 
@@ -376,10 +395,25 @@ a {
 .hotel-footer {
     height: 10%;
     width: 100%;
-    background: rgb(255, 7, 110);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+#card-footer-color1 {
+    background: #05f9e2;
+}
+
+#card-footer-color2 {
+    background: #e2f705;
+}
+
+#card-footer-color3 {
+    background: #f50b86;
+}
+
+#card-footer-color4 {
+    background: #ff6f00;
 }
 
 .hotel-footer a i {
