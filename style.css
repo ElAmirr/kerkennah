@@ -130,8 +130,9 @@ a {
 .map {
     height: 94vh;
     width: 100vw;
-    background-image: url(gp1.jpg);
+    background-image: url(bg-map.jpg);
     /* Center and scale the image nicely */
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,7 +178,13 @@ a {
 
 .slider {
     height: 94vh;
-    background: linear-gradient(to left, rgba(44, 112, 4, 0.5), rgba(177, 122, 168, 0.5));
+    background-image: url(bg-slider.jpg);
+    /* Center and scale the image nicely */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .slider-img {
@@ -214,8 +221,9 @@ a {
 
 .food {
     height: 94vh;
-    background-image: url(gp1.jpg);
+    background-image: url(bg-food.jpg);
     /* Center and scale the image nicely */
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -298,8 +306,9 @@ a {
 
 .hotel {
     height: 94vh;
-    background-image: url(hotel1.jpg);
+    background-image: url(bg-hotel.jpg);
     /* Center and scale the image nicely */
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -454,7 +463,7 @@ a {
     .location-card p {
         height: 70%;
     }
-    
+
     .map-img {
         height: 30%;
         width: 100%;
