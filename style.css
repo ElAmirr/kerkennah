@@ -253,6 +253,9 @@ a {
 }
 
 @media screen and (max-width: 550px) {
+    .navbar-menu {
+        display: none;
+    }
     .gp7, .gp8, .gp9 {
         display: none;
     }
