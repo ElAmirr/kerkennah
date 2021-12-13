@@ -132,7 +132,7 @@ a {
 
 .helen-intro {
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     top: 115vh;
     height: 100px;
     width: 100px;
@@ -436,7 +436,10 @@ a {
 
 .title a {
     font-size: 40px;
-    background: black;
+    font-weight: 600;
+    color: black;
+    background: #a3f307;
+    padding: 5px 20px;
 }
 
 #bg-hotel {
