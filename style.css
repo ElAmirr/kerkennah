@@ -443,19 +443,19 @@ a {
 }
 
 #bg-hotel {
-    background-image: url(hotel1.jpg);
+    background-image: url(bg-title1.jpg);
 }
 
 #bg-food {
-    background-image: url(hotel2.jpg);
+    background-image: url(bg-title2.jpg);
 }
 
 #bg-place {
-    background-image: url(hotel3.jpg);
+    background-image: url(bg-title3.jpg);
 }
 
 #bg-location {
-    background-image: url(hotel4.jpg);
+    background-image: url(bg-title4.jpg);
 }
 
 @media screen and (max-width: 550px) {
