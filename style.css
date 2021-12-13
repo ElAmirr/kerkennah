@@ -207,7 +207,7 @@ a {
 
 .slider-img {
     position: absolute;
-    top: 350%;
+    top: 550%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 60vh;
@@ -218,14 +218,14 @@ a {
 
 .w3-display-left {
     position: absolute;
-    top: 350%;
+    top: 550%;
     left: 0%;
     transform: translate(0%, -50%);
 }
 
 .w3-display-right {
     position: absolute;
-    top: 350%;
+    top: 550%;
     right: 0%;
     transform: translate(0%, -50%);
 }
@@ -422,18 +422,57 @@ a {
 
 .title {
     height: 100vh;
+    /* Center and scale the image nicely */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.bg-title {
-    display: none;
-    height: 100vh;
-    width: 100vw;
+#bg-hotel {
+    background-image: url(hotel1.jpg);
+}
+
+#bg-food {
+    background-image: url(hotel2.jpg);
+}
+
+#bg-place {
+    background-image: url(hotel3.jpg);
+}
+
+#bg-location {
+    background-image: url(hotel4.jpg);
 }
 
 #hotel-title {
     font-size: 40px;
-    position: relative;
-    bottom: 50vh;
+    position: absolute;
+    top: 850vh;
+    left: 40vw;
+    background: black;
+}
+
+#food-title {
+    font-size: 40px;
+    position: absolute;
+    top: 650vh;
+    left: 40vw;
+    background: black;
+}
+
+#place-title {
+    font-size: 40px;
+    position: absolute;
+    top: 450vh;
+    left: 40vw;
+    background: black;
+}
+
+#location-title {
+    font-size: 40px;
+    position: absolute;
+    top: 250vh;
     left: 40vw;
     background: black;
 }
