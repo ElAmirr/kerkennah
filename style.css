@@ -423,10 +423,20 @@ a {
 .title {
     height: 100vh;
     /* Center and scale the image nicely */
+    font-size: 40px;
+    background: black;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title a {
+    font-size: 40px;
+    background: black;
 }
 
 #bg-hotel {
@@ -443,38 +453,6 @@ a {
 
 #bg-location {
     background-image: url(hotel4.jpg);
-}
-
-#hotel-title {
-    font-size: 40px;
-    position: absolute;
-    top: 850vh;
-    left: 40vw;
-    background: black;
-}
-
-#food-title {
-    font-size: 40px;
-    position: absolute;
-    top: 650vh;
-    left: 40vw;
-    background: black;
-}
-
-#place-title {
-    font-size: 40px;
-    position: absolute;
-    top: 450vh;
-    left: 40vw;
-    background: black;
-}
-
-#location-title {
-    font-size: 40px;
-    position: absolute;
-    top: 250vh;
-    left: 40vw;
-    background: black;
 }
 
 @media screen and (max-width: 550px) {
