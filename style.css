@@ -256,7 +256,7 @@ a {
     width: 80%;
     display: grid;
     grid-template-rows: 1f 1f 1f;
-    grid-template-columns: 1f 1f 1f;
+    grid-template-columns: 1f 1f 1f 1f;
     grid-gap: 20px;
 }
 
@@ -318,6 +318,27 @@ a {
 .gp9 {
     grid-row: 3/4;
     grid-column: 3/4;
+    height: 100%;
+    width: 100%;
+}
+
+.gp10 {
+    grid-row: 1/2;
+    grid-column: 4/5;
+    height: 100%;
+    width: 100%;
+}
+
+.gp11 {
+    grid-row: 2/3;
+    grid-column: 4/5;
+    height: 100%;
+    width: 100%;
+}
+
+.gp12 {
+    grid-row: 3/4;
+    grid-column: 4/5;
     height: 100%;
     width: 100%;
 }
@@ -546,7 +567,7 @@ a {
         grid-gap: 0px;
     }
 
-    .gp7, .gp8, .gp9 {
+    .gp7, .gp8, .gp9, .gp10, .gp11, .gp12 {
         display: none;
     }
 
