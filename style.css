@@ -13,6 +13,11 @@
     background: #a3f307;
 }
 
+.header-logo img {
+    height: 6vh;
+    width: 6vh;
+}
+
 .container {
     height: 6vh;
     display: flex;
