@@ -14,8 +14,11 @@
 }
 
 .header-logo img {
-    height: 6vh;
+    margin-left: 10px;
+    margin-top: 4px;
+    height: 100%;
     width: 6vh;
+    border-radius: 50px;
 }
 
 .container {
